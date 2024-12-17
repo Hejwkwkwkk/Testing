@@ -8,7 +8,7 @@ import asyncio
 import time
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
-from rajaji import BOT_TOKEN, ADMIN_IDS, OWNER_USERNAME
+from config import BOT_TOKEN, ADMIN_IDS, OWNER_USERNAME
 from telegram import ReplyKeyboardMarkup, KeyboardButton
 USER_FILE = "users.json"
 KEY_FILE = "keys.json"
